@@ -42,7 +42,6 @@ class _HomePageState extends State<HomePage> {
         body: ListView.builder(
             itemCount: quotesList.length,
             itemBuilder: (context, index) {
-              print(quotesList[index].text);
               return quotesList.isEmpty
                   ? Center(
                       child: CircularProgressIndicator(),
